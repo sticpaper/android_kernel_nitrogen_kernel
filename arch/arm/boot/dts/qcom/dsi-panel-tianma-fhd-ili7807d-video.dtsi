@@ -148,41 +148,5 @@
 		qcom,esd-err-irq-gpio = <&tlmm 59 0x2002>;
 		qcom,esd-check-enabled;
 		qcom,initial-esd-check-cmd = <0x0A 0x9C 20>;
-		qcom,dispparam-enabled;
-		qcom,mdss-panel-on-dimming-delay = <120>;
-		qcom,mdss-dsi-dispparam-dimmingon-command = [
-			15 01 00 00 01 00 02 53 2C];
-		qcom,mdss-dsi-dispparam-cabcon-command = [
-			29 00 00 00 00 00 04 FF 78 07 05
-			15 00 00 00 00 00 02 2B 0D
-			29 01 00 00 00 00 04 FF 78 07 00];
-		qcom,mdss-dsi-dispparam-cabcstillon-command = [
-			29 00 00 00 00 00 04 FF 78 07 05
-			15 00 00 00 00 00 02 2B 0F
-			29 01 00 00 00 00 04 FF 78 07 00];
-		qcom,mdss-dsi-dispparam-cabcmovieon-command = [
-			29 00 00 00 00 00 04 FF 78 07 05
-			15 00 00 00 00 00 02 2B 0E
-			29 01 00 00 00 00 04 FF 78 07 00];
-		qcom,mdss-dsi-dispparam-cabcoff-command = [
-			29 00 00 00 00 00 04 FF 78 07 05
-			15 00 00 00 00 00 02 2B 08
-			29 01 00 00 00 00 04 FF 78 07 00];
-		qcom,mdss-dsi-dispparam-skin-ce-command = [
-			29 00 00 00 00 00 04 FF 78 07 05
-			15 00 00 00 00 00 02 31 10
-			29 01 00 00 00 00 04 FF 78 07 00];
-		qcom,mdss-dsi-dispparam-skin-ce-off-command = [
-			29 00 00 00 00 00 04 FF 78 07 05
-			15 00 00 00 00 00 02 31 00
-			29 01 00 00 00 00 04 FF 78 07 00];
-		qcom,mdss-dsi-dispparam-hbm-l1-on-command = [
-			29 01 00 00 00 00 03 51 0C CC];
-		qcom,mdss-dsi-dispparam-hbm-l2-on-command = [
-			29 01 00 00 00 00 03 51 0E 65];
-		qcom,mdss-dsi-dispparam-hbm-l3-on-command = [
-			29 01 00 00 00 00 03 51 0F FF];
-		qcom,mdss-dsi-dispparam-hbm-off-command = [
-			29 01 00 00 00 00 03 51 0B 84];
 	};
 };

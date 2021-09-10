@@ -1,0 +1,7 @@
+# Xiaomi configuration options
+
+config MACH_NITROGEN
+	bool "Xiaomi device nitrogen"
+	depends on ARCH_SDM660
+	help
+	 Support for Xiaomi e4 nitrogen device.
